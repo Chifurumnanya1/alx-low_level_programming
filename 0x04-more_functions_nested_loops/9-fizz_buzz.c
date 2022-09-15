@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
 *main - program that prints either number
@@ -37,3 +38,8 @@ int main(void)
 		{
 			printf("%d ", num);
 		}
+	}
+	printf("\n");
+
+	return (0);
+}
