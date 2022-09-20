@@ -1,20 +1,11 @@
 #include "main.h" 
- 
+
 /** 
-* main -        Tests the function for project reset to 98 
-* Return:        Always zero (0); 
-*/ 
- 
-int main(void) 
-{ 
-int i; 
- 
-i = 402; 
- 
-printf("The value of i is: %i\n", i); 
- 
-reset_to_98(&i); 
-printf("The value of i is: %i\n", i); 
- 
-return (0); 
+ * reset_to_98 - changes the value of the variable 
+ * that's pointed to by the argument to 98 
+ *@n: pointer variable 
+ */ 
+void reset_to_98(int *n) 
+{
+        *n = 98; 
 }
